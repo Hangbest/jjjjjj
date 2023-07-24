@@ -1,0 +1,143 @@
+html{
+    background-color: white;
+    background-image:url(image/brick-wall-1834784.jpg) ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+
+
+/* the header section  */
+
+
+}
+
+header{
+    display: flex;
+    height: 150px;
+}
+
+
+header img{
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 170px;
+    border: 5px solid cyan;
+}
+ 
+header > div{
+    flex: 1;
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+li{
+    display: inline;
+}
+
+h1{
+    margin: 0;
+    font-size: xx-large;
+    font-family: 'Orbitron';font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: cyan;
+}
+ul{
+    margin: 0;
+    padding: 10px 0;
+}
+
+span{
+    color: white;
+}
+
+
+/* the main section  */
+#sing-in{
+    background-image: url(image/platter-2009590_1280.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2 , h3{
+    background-color: rgba(136, 136, 136, 0.7);
+    color: cyan;
+    font-family: 'Orbitron';
+}
+
+input[type= "email"] {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type= "submit"] {
+    background-color: rgb(127, 127, 127);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+ #ide{
+    display: flex;
+    padding: 15px;
+    
+ }
+
+ #ide img {
+    width: 100%;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 1.5em;
+
+ }
+ 
+
+ .container {
+    position: relative;
+ }
+
+ .title {
+    position: absolute;
+    top: 20px;
+    width: 75%;
+    text-align: center;
+    padding: 5px 0;
+    border: 2.5px solid white;
+    border-radius: 0.3em;
+ }
+
+ .middle {
+    margin: 0 15px;
+ }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    
+}
+footer img{
+    max-width: 70px;
+    border: 3px solid white; 
+    border-radius: 170px;
+}
+footer ul{
+    padding: 10px 0 0 0;
+}
+
